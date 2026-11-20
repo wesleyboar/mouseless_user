@@ -1,7 +1,7 @@
 app_version: 1.1.0
 behavior_configs:
-- base_move_speed: 5
-  base_wheel_speed: 16
+- base_move_speed: 5.0
+  base_wheel_speed: 16.0
   default_mouse_action: click
   free_mode_after_move: false
   free_mode_auto_off_s: 0
@@ -16,16 +16,16 @@ behavior_configs:
   mouse_value_cycle_behavior: once
   move_duration_ms: 100
   move_real_cursor_with_virtual: false
-  move_speed_multiplier: 3
+  move_speed_multiplier: 3.0
   movement_easing: 0.2
   multi_action_timeout_ms: 400
   name: main_behavior
   send_escape_after_global_alt_tap__windows: true
   tap_threshold_ms: 250
   wheel_easing: 0.3
-  wheel_speed_multiplier: 4
-  wheel_step_size: 100
-  wheel_step_size_large: 500
+  wheel_speed_multiplier: 4.0
+  wheel_step_size: 100.0
+  wheel_step_size_large: 500.0
 classname: AppConfig
 custom_actions: []
 custom_monitor_assignments: []
@@ -394,9 +394,9 @@ name: ''
 overlay_scaling: auto
 style_configs:
 - always_on_subgrid_rgba:
-  - 1
-  - 1
-  - 1
+  - 1.0
+  - 1.0
+  - 1.0
   - 0.2
   background_colors:
   - - 0.49
@@ -460,8 +460,8 @@ style_configs:
   font_size_multiplier: 0.4
   font_style: normal
   font_weight: 500
-  free_mode_indicator_offset_x: 20
-  free_mode_indicator_offset_y: 20
+  free_mode_indicator_offset_x: 20.0
+  free_mode_indicator_offset_y: 20.0
   free_mode_indicator_rgba:
   - 0.3
   - 0.42
@@ -471,9 +471,9 @@ style_configs:
   free_mode_status_display: both
   grid_line_style: lines
   grid_rgba:
-  - 1
-  - 1
-  - 1
+  - 1.0
+  - 1.0
+  - 1.0
   - 0.5
   highlight_animation_ms: 0
   highlight_rgba:
@@ -497,30 +497,30 @@ style_configs:
   show_initial_highlight: false
   subgrid_font_size_multiplier: 0.75
   subgrid_rgba:
-  - 1
-  - 1
-  - 1
+  - 1.0
+  - 1.0
+  - 1.0
   - 0.5
   subgrid_text_rgba:
-  - 1
-  - 1
-  - 1
+  - 1.0
+  - 1.0
+  - 1.0
   - 0.5
   text_rgba:
-  - 1
-  - 1
-  - 1
-  - 1
-  text_shadow_blur_radius: 4
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  text_shadow_blur_radius: 4.0
   text_shadow_offset:
-  - 0
-  - 0
+  - 0.0
+  - 0.0
   text_shadow_rgba:
   - 0.02
   - 0.04
   - 0.06
-  - 1
-  text_y_offset: 0
+  - 1.0
+  text_y_offset: 0.0
   toast_opacity: 0.5
   use_bg_color_transforms: false
   window_opacity: 1.0
