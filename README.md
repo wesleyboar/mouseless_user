@@ -25,7 +25,9 @@ Never commit `licenses/` or `logs/` (see `.gitignore`).
 
 - T1 (2026-11-20): PASS. Two UI saves, symlink survived, changes landed in the repo file (Mouseless writes in place).
 - T4 (2026-11-20): NOISY. The first save rewrites whole numbers as floats (`5` -> `5.0`, `1` -> `1.0`) across the file. Commit that normalization as its own commit, so later diffs show only real changes.
-- Still to do: T3 (live reload?), T6 (last save wins across accounts).
+- T2 (2026-11-20): PASS. After a restart the settings and the symlink were intact.
+- T3 (2026-11-20): PASS on restart. A hand edit to the repo file shows in Settings after a restart. Live reload without a restart was not tested.
+- Still to do: T5/T6 (second account; last save wins across accounts).
 
 ## Fallback (method 2)
 
